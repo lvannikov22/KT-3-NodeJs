@@ -5,7 +5,7 @@
 
 Открыть терминал в `kt03`:
 
-```терминал
+```
 npm install
 Copy-Item .env.example .env
 npm run migrate
