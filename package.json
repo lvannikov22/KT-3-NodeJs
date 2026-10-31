@@ -1,0 +1,26 @@
+{
+  "name": "kt03",
+  "version": "1.0.0",
+  "description": "КТ-3: учебный API блога с Prisma и SQLite",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "prisma migrate dev --name init",
+    "generate": "prisma generate",
+    "test": "node check.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "joi": "^18.3.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.3"
+  }
+}
